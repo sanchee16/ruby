@@ -1,0 +1,16 @@
+/opt/rbenv/RUBIES/versions/2.1.1/bin/ruby -r ./siteconf20150105-4780-19rd9tv.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling crypt_blowfish.c
+compiling bcrypt_ext.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+compiling crypt.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20150105-4780-ia7yjt
+installing default bcrypt_ext libraries
