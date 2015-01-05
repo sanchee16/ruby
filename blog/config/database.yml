@@ -7,7 +7,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: blog_development
+  database: blog_develop
   pool: 5
   username: sanchi
   password: secret
