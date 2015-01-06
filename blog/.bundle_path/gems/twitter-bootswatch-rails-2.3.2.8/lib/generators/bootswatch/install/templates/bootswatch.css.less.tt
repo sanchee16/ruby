@@ -1,0 +1,9 @@
+@import "<%= config[:theme_name] %>/base";
+
+// <%= config[:theme_info] %>
+// Bootswatch
+// bootswatch.css.less
+
+//body {
+//	padding-top: 10px;
+//}
